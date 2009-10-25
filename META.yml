@@ -1,0 +1,36 @@
+---
+name: Module-Build-SysPath
+version: 0.09
+author:
+  - 'Jozef Kutej <jkutej@cpan.org>'
+abstract: Module::Build subclass with Sys::Path used in new() and ACTION_install()
+license: perl
+resources:
+  bugtracker: http://github.com/jozef/Module-Build-SysPath/issues
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/jozef/Module-Build-SysPath.git
+build_requires:
+  Test::Compile: 0.08
+  Test::More: 0
+requires:
+  Digest::MD5: 0
+  File::Spec: 0
+  List::MoreUtils: 0
+  Sys::Path: 0
+  Text::Diff: 0
+configure_requires:
+  Module::Build: 0.35
+provides:
+  Module::Build::SysPath:
+    file: lib/Module/Build/SysPath.pm
+    version: 0.09
+generated_by: Module::Build version 0.35
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+keywords:
+  - system
+  - paths
+  - instalation
+  - deployment
+  - applications
