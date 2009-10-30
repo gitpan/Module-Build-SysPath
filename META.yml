@@ -1,6 +1,6 @@
 ---
 name: Module-Build-SysPath
-version: 0.09
+version: 0.10
 author:
   - 'Jozef Kutej <jkutej@cpan.org>'
 abstract: Module::Build subclass with Sys::Path used in new() and ACTION_install()
@@ -16,14 +16,14 @@ requires:
   Digest::MD5: 0
   File::Spec: 0
   List::MoreUtils: 0
-  Sys::Path: 0
+  Sys::Path: 0.09
   Text::Diff: 0
 configure_requires:
   Module::Build: 0.35
 provides:
   Module::Build::SysPath:
     file: lib/Module/Build/SysPath.pm
-    version: 0.09
+    version: 0.10
 generated_by: Module::Build version 0.35
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html

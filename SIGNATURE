@@ -14,10 +14,10 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 8f46f49379f88260b5ea1f9359b51bf83058b9e2 Build.PL
-SHA1 c7965b94622cfadcd96d64616cbbe823c284666b Changes
+SHA1 eb9e94d88f90fbf178e40624555880e71d8cbbc3 Build.PL
+SHA1 8e73873ffb73630894e6d83f8b7819c2840f74fd Changes
 SHA1 08972edf38da67ef775dde4c95743aa988fc1cb2 MANIFEST
-SHA1 28570d3c308e15c83cb09c4526b8869f602e2ad5 META.yml
+SHA1 f0fdb20be29b2964b8107bcdc6ac0b3490cca638 META.yml
 SHA1 c995855e6ffeac8cf2ff1ba6dc4cb703660c07df README
 SHA1 7d5a4446d14249c3d6ecb62c0f58403d5463d3ac examples/Sys-Path-Example1/.gitignore
 SHA1 381441ecc89a37ed7ee053b40a9e97d9921b58c2 examples/Sys-Path-Example1/Build.PL
@@ -37,7 +37,7 @@ SHA1 904af31322abeaab861b771d895d609a867d3001 examples/Sys-Path-Example1/t/02_Mo
 SHA1 6b40f9558ba5c3c0159e16b037e0f47677d14703 examples/Sys-Path-Example1/t/boilerplate.t
 SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 examples/Sys-Path-Example1/t/pod-coverage.t
 SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 examples/Sys-Path-Example1/t/pod.t
-SHA1 87fe66316be95e554a908e1ea82b47fa86e4f219 lib/Module/Build/SysPath.pm
+SHA1 d5349b89eeaaa0f5430bbfef83ca08d057f35bec lib/Module/Build/SysPath.pm
 SHA1 605f05a5336cc37a476bb10b218f5ad1a2bd340d t/00_compile.t
 SHA1 41533fbd463e42d2ecf1e119eca910c16809d13e t/distribution.t
 SHA1 10c564e5ffe84748070827b350edbf3d6b832b20 t/fixme.t
@@ -47,7 +47,7 @@ SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkrkkDkACgkQC0OgUPgL2SeWIgCgptDuFMXccKtKXQ2LErsxIRdj
-B4QAniDy4PRvD8OO5fCO/Qj0QHJZkJ0X
-=zo4N
+iEYEARECAAYFAkrq+4kACgkQC0OgUPgL2ScXxACgr04bo1hGCGFkUmzmZbneKlm+
+62QAn0B+lX78QzHIJKOScoY8S+tThfj7
+=UDVR
 -----END PGP SIGNATURE-----
