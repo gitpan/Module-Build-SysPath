@@ -1,37 +1,38 @@
 ---
-name: Module-Build-SysPath
-version: 0.12
+abstract: 'Module::Build subclass with Sys::Path used in new() and ACTION_install()'
 author:
   - 'Jozef Kutej <jkutej@cpan.org>'
-abstract: Module::Build subclass with Sys::Path used in new() and ACTION_install()
-license: perl
-resources:
-  bugtracker: http://github.com/jozef/Module-Build-SysPath/issues
-  license: http://dev.perl.org/licenses/
-  repository: git://github.com/jozef/Module-Build-SysPath.git
 build_requires:
   Test::Compile: 0.08
   Test::More: 0
-requires:
-  Digest::MD5: 0
-  File::Basename: 0
-  File::Spec: 0
-  List::MoreUtils: 0
-  Sys::Path: 0.09
-  Text::Diff: 0
 configure_requires:
-  Module::Build: 0.35
-provides:
-  Module::Build::SysPath:
-    file: lib/Module/Build/SysPath.pm
-    version: 0.12
-generated_by: Module::Build version 0.35
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
 keywords:
   - system
   - paths
   - instalation
   - deployment
   - applications
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Module-Build-SysPath
+provides:
+  Module::Build::SysPath:
+    file: lib/Module/Build/SysPath.pm
+    version: 0.13
+requires:
+  Digest::MD5: 0
+  File::Basename: 0
+  File::Path: 0
+  File::Spec: 0
+  List::MoreUtils: 0
+  Sys::Path: 0.09
+  Text::Diff: 0
+resources:
+  bugtracker: http://github.com/jozef/Module-Build-SysPath/issues
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/jozef/Module-Build-SysPath.git
+version: 0.13
