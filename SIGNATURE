@@ -1,0 +1,84 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.67.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 c5fbbea90f3e1abc1ab54736de0089f40931cea0 Build.PL
+SHA1 1054d3346d3f07156d45a15708499d4f5caa96ba Changes
+SHA1 a8e496a378989c27766cd292d4b43005957250fb MANIFEST
+SHA1 fa53c96145a727fb761c33edf2a623ba07d86e5e META.json
+SHA1 7ef61ac034f7583a2b59a480ca24c6613545c705 META.yml
+SHA1 a01ca895b777d1c263d8d083d5ae32c4e2d7e501 README
+SHA1 7d5a4446d14249c3d6ecb62c0f58403d5463d3ac examples/Sys-Path-Example1/.gitignore
+SHA1 381441ecc89a37ed7ee053b40a9e97d9921b58c2 examples/Sys-Path-Example1/Build.PL
+SHA1 9668d26f4a1626a9666bf76c3619bb381c3ef5d6 examples/Sys-Path-Example1/Build2.PL
+SHA1 47aadb362f5f45b16affcc5b8b69c2c94c2fff33 examples/Sys-Path-Example1/Changes
+SHA1 dbb6f5315b3b9a1345f70768225e267a44572bc1 examples/Sys-Path-Example1/MANIFEST
+SHA1 802a3f4b804e09e19d7971fd13150f6222647e16 examples/Sys-Path-Example1/README
+SHA1 d09fe9d2863d84f1bd8d40c673d6816cd5f258a4 examples/Sys-Path-Example1/etc/etc-test.txt
+SHA1  examples/Sys-Path-Example1/etc/project/blah
+SHA1  examples/Sys-Path-Example1/etc/project/blah2.txt
+SHA1 507ddb5adb893c354d3fb559cc2b7d1c162437d3 examples/Sys-Path-Example1/lib/Sys/Path/Example1.pm
+SHA1 e56199563ab17b7538407dc4442f6ec56ac433a9 examples/Sys-Path-Example1/lib/Sys/Path/Example1/SPc.pm
+SHA1  examples/Sys-Path-Example1/share/sys-path-example1/.hidden/file
+SHA1  examples/Sys-Path-Example1/share/sys-path-example1/.hidden2/test
+SHA1  examples/Sys-Path-Example1/share/sys-path-example1/.hidden3
+SHA1 0e955b66534676c5311cae5168c617b8c22576a0 examples/Sys-Path-Example1/share/sys-path-example1/README
+SHA1 2dfa563e8f975f085670cab48fab13d3ceea679f examples/Sys-Path-Example1/t/00-load.t
+SHA1 ba79453ad27b2e87892990ca16a4628f6cf3265d examples/Sys-Path-Example1/t/01_check-example-syspathconfig.t
+SHA1 904af31322abeaab861b771d895d609a867d3001 examples/Sys-Path-Example1/t/02_Module-Build-SysPath.t
+SHA1 6b40f9558ba5c3c0159e16b037e0f47677d14703 examples/Sys-Path-Example1/t/boilerplate.t
+SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 examples/Sys-Path-Example1/t/pod-coverage.t
+SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 examples/Sys-Path-Example1/t/pod.t
+SHA1 50b666c27ae2c24a6f0c630787066e6221861ed1 lib/Module/Build/SysPath.pm
+SHA1 605f05a5336cc37a476bb10b218f5ad1a2bd340d t/00_compile.t
+SHA1 b13a8cda2c44b0ec8c2192f63f15d995e8ec5a9f t/01_Module-Build-SysPath.t
+SHA1 41533fbd463e42d2ecf1e119eca910c16809d13e t/distribution.t
+SHA1 10c564e5ffe84748070827b350edbf3d6b832b20 t/fixme.t
+SHA1 c07100a1f6dec062bd0fabebe96e8dfc6a7078c9 t/lib/Sys/Path/SPc.pm
+SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 t/pod-coverage.t
+SHA1 a6fc6a9eabe60c0fac64d15dca0721adcb623f12 t/pod-spell.t
+SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
+SHA1 279d9035886d4c0427549863c4c2101e4a63e041 t/tdirs/Acme-Test-SysPath.installed/etc/acme-test-syspath.cfg
+SHA1  t/tdirs/Acme-Test-SysPath.installed/usr/share/doc/doc
+SHA1  t/tdirs/Acme-Test-SysPath.installed/usr/share/locale/locale
+SHA1  t/tdirs/Acme-Test-SysPath.installed/usr/share/share
+SHA1  t/tdirs/Acme-Test-SysPath.installed/var/www/www
+SHA1 fc31634663f969fd02c6e7bb50488f32b9b38ad3 t/tdirs/Acme-Test-SysPath/.gitignore
+SHA1 d93bf6110c040b6fb8a771e100c7a4904d4361f0 t/tdirs/Acme-Test-SysPath/Build.PL
+SHA1 6fd7329973729b5c33cfda7cf5d607401191b3e1 t/tdirs/Acme-Test-SysPath/MANIFEST
+SHA1 eccb0f13fe9f2c79cb864d5d491761d95e02304e t/tdirs/Acme-Test-SysPath/MANIFEST.SKIP
+SHA1 a4c80587e99dc6b8fdb411bd1734e03afa64a59f t/tdirs/Acme-Test-SysPath/META.yml
+SHA1  t/tdirs/Acme-Test-SysPath/cache/acme-cache/.exists
+SHA1 279d9035886d4c0427549863c4c2101e4a63e041 t/tdirs/Acme-Test-SysPath/conf/acme-test-syspath.cfg
+SHA1  t/tdirs/Acme-Test-SysPath/doc/doc
+SHA1 ed02a20ec3bf0387c8649f1556b3b55782979a60 t/tdirs/Acme-Test-SysPath/lib/Acme/Test/SysPath.pm
+SHA1 7b6153cad2a310cb3e88fc00de910db290c65963 t/tdirs/Acme-Test-SysPath/lib/Acme/Test/SysPath/SPc.pm
+SHA1  t/tdirs/Acme-Test-SysPath/locale/locale
+SHA1  t/tdirs/Acme-Test-SysPath/lock/acme-lock/.exists
+SHA1  t/tdirs/Acme-Test-SysPath/log/acme-log/.exists
+SHA1  t/tdirs/Acme-Test-SysPath/run/acme-run/.exists
+SHA1  t/tdirs/Acme-Test-SysPath/share/share
+SHA1  t/tdirs/Acme-Test-SysPath/spool/acme-spool/.exists
+SHA1  t/tdirs/Acme-Test-SysPath/state/acme-state/.exists
+SHA1  t/tdirs/Acme-Test-SysPath/www/.hidden/hidden
+SHA1  t/tdirs/Acme-Test-SysPath/www/empty/.exists
+SHA1  t/tdirs/Acme-Test-SysPath/www/www
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAk3RP3cACgkQC0OgUPgL2SekYACgib4ODJvOsyY+kQZL3stftRlH
+KsUAninbZ1/eUfhGFQf8b+f2RAQpZa2u
+=K87Z
+-----END PGP SIGNATURE-----

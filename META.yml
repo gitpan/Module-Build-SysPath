@@ -8,8 +8,9 @@ build_requires:
   Test::Dirs: 0
   Test::More: 0
 configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3607'
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110930'
 keywords:
   - system
   - paths
@@ -24,7 +25,7 @@ name: Module-Build-SysPath
 provides:
   Module::Build::SysPath:
     file: lib/Module/Build/SysPath.pm
-    version: 0.14_01
+    version: 0.14
 requires:
   Digest::MD5: 0
   File::Basename: 0
@@ -37,4 +38,4 @@ resources:
   bugtracker: http://github.com/jozef/Module-Build-SysPath/issues
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jozef/Module-Build-SysPath.git
-version: 0.14_01
+version: 0.14
