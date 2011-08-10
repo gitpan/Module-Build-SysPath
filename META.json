@@ -49,7 +49,7 @@
    "provides" : {
       "Module::Build::SysPath" : {
          "file" : "lib/Module/Build/SysPath.pm",
-         "version" : "0.14"
+         "version" : "0.15"
       }
    },
    "release_status" : "stable",
@@ -64,5 +64,5 @@
          "url" : "git://github.com/jozef/Module-Build-SysPath.git"
       }
    },
-   "version" : "0.14"
+   "version" : "0.15"
 }

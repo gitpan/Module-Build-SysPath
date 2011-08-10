@@ -25,7 +25,7 @@ name: Module-Build-SysPath
 provides:
   Module::Build::SysPath:
     file: lib/Module/Build/SysPath.pm
-    version: 0.14
+    version: 0.15
 requires:
   Digest::MD5: 0
   File::Basename: 0
@@ -38,4 +38,4 @@ resources:
   bugtracker: http://github.com/jozef/Module-Build-SysPath/issues
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jozef/Module-Build-SysPath.git
-version: 0.14
+version: 0.15
