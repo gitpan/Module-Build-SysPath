@@ -8,6 +8,9 @@ my $builder = Module::Build->new(
     license             => 'perl',
     dist_author         => 'Jozef Kutej <jkutej@cpan.org>',
     dist_version_from   => 'lib/Module/Build/SysPath.pm',
+    configure_requires => {
+        'Module::Build' => '0.3607',
+    },
     requires => {
         'Sys::Path'       => 0.11,
         'List::MoreUtils' => 0,
@@ -22,6 +25,7 @@ my $builder = Module::Build->new(
         'Test::Compile' => 0.08,
         'Test::Dirs'    => 0,
         'File::Temp'    => 0,
+        'File::Find::Rule' => 0,
     },
     add_to_cleanup      => [ 'Module-Build-SysPath-*' ],
     create_readme       => 1,

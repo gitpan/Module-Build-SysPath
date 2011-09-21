@@ -3,14 +3,15 @@ abstract: 'install files to system folders according to FHS (or Sys::Path settin
 author:
   - 'Jozef Kutej <jkutej@cpan.org>'
 build_requires:
+  File::Find::Rule: 0
   File::Temp: 0
   Test::Compile: 0.08
   Test::Dirs: 0
   Test::More: 0
 configure_requires:
-  Module::Build: 0.38
+  Module::Build: 0.3607
 dynamic_config: 1
-generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110930'
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112150'
 keywords:
   - system
   - paths
@@ -25,7 +26,7 @@ name: Module-Build-SysPath
 provides:
   Module::Build::SysPath:
     file: lib/Module/Build/SysPath.pm
-    version: 0.15
+    version: 0.16
 requires:
   Digest::MD5: 0
   File::Basename: 0
@@ -38,4 +39,4 @@ resources:
   bugtracker: http://github.com/jozef/Module-Build-SysPath/issues
   license: http://dev.perl.org/licenses/
   repository: git://github.com/jozef/Module-Build-SysPath.git
-version: 0.15
+version: 0.16
