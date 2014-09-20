@@ -4,7 +4,7 @@
       "Jozef Kutej <jkutej@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Module::Build version 0.4202",
    "keywords" : [
       "system",
       "paths",
@@ -23,11 +23,11 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "File::Find::Rule" : 0,
-            "File::Temp" : 0,
+            "File::Find::Rule" : "0",
+            "File::Temp" : "0",
             "Test::Compile" : "0.08",
-            "Test::Dirs" : 0,
-            "Test::More" : 0
+            "Test::Dirs" : "0",
+            "Test::More" : "0"
          }
       },
       "configure" : {
@@ -37,20 +37,20 @@
       },
       "runtime" : {
          "requires" : {
-            "Digest::MD5" : 0,
-            "File::Basename" : 0,
+            "Digest::MD5" : "0",
+            "File::Basename" : "0",
             "File::Path" : "2.07",
-            "File::Spec" : 0,
-            "List::MoreUtils" : 0,
+            "File::Spec" : "0",
+            "List::MoreUtils" : "0",
             "Sys::Path" : "0.11",
-            "Text::Diff" : 0
+            "Text::Diff" : "0"
          }
       }
    },
    "provides" : {
       "Module::Build::SysPath" : {
          "file" : "lib/Module/Build/SysPath.pm",
-         "version" : "0.16"
+         "version" : "0.17"
       }
    },
    "release_status" : "stable",
@@ -65,5 +65,5 @@
          "url" : "git://github.com/jozef/Module-Build-SysPath.git"
       }
    },
-   "version" : "0.16"
+   "version" : "0.17"
 }

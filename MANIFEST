@@ -61,4 +61,3 @@ t/tdirs/Acme-Test-SysPath/state/acme-state/.exists
 t/tdirs/Acme-Test-SysPath/www/.hidden/hidden
 t/tdirs/Acme-Test-SysPath/www/empty/.exists
 t/tdirs/Acme-Test-SysPath/www/www
-SIGNATURE    Added here by Module::Build
